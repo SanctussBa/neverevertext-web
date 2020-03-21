@@ -1,0 +1,12 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<div class="grid2">
+  <h1>Never have I ever ...</h1>
+  <h1>{{line}}</h1>
+</div>
+
+<div class="grid3">
+  <a href="{{url_for('game')}}">Next</a>
+</div>
+{% endblock %}

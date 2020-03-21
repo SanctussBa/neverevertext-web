@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Never Have I Ever</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="shortcut icon" type="image/ico" href="../static/ico.ico">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid1">
+        <a href="{{url_for('welcome')}}">HOME</a>
+      </div>
+      {% block content %}
+
+      {% endblock %}
+      <div class="grid4">
+        <img src="../static/pic.png" alt="pic" height=auto width='600px'>
+      </div>
+    </div>
+  </body>
+</html>
